@@ -8,7 +8,7 @@
     </head>
     <body>
         <span>
-        <label>
+        <label class="instruction">
             <b>first number</b>
             <b>second number</b>
         </label>
@@ -19,28 +19,14 @@
             <input type="text">
             </div>
         </span>
-        <span>
-            <div>
-                <label class="container"> Add 
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="container"> Subtract 
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="container"> Multiply 
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="container"> Divide 
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
-            </div>
+        <span class="radios">
+                <label><input type="radio" name="radio" id="add" value="Add">Add</label>
+                <label><input type="radio" name="radio" id="subtract" value="Subtract">Subtract</label>
+                <label><input type="radio" name="radio" id="multiply" value="Multiply">Multiply</label>
+                <label><input type="radio" name="radio" id="divide" value="Divide">Divide</label>
         </span>
         <span>
-            <div>
+            <div class="buttons">
                 <button class="button"> = </button>
                 <button class="button"> Clear </button>
             </div>
