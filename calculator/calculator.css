@@ -2,13 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
 }
 .input {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
 }
 .radios {
     display: flex;
@@ -16,9 +14,52 @@
     align-items: center;
     padding: 20px;
 }
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+input[type="radio"]:checked+span { font-weight: bold; }
+input[type="radio"]:checked {
+    font-weight: bold;
+}
 .buttons {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+b {
+    margin: 20px;
+}
+.textbox {
+    margin: 10px;
+}
+.button {
+    margin: 10px;
+    height: 30px;
+    width: 60px;
+    font-size: 15px;
+}
+.button-primary {
+    margin: 10px;
+    background-color: rgb(131, 131, 255);
+    border-width: 0px;
+    border-radius: 2px;
+    color: white;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+}
+.button-primary:hover {
+    background-color: rgb(73, 73, 255);
+}
+.button-primary:active {
+    background-color: blue
+}
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
