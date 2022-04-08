@@ -8,15 +8,13 @@
     </head>
     <body>
         <span>
-        <label class="instruction">
-            <b>first number</b>
-            <b>second number</b>
-        </label>
-        </span>
-        <span>
+            <label class="instruction">
+                <b>first number</b>
+                <b>second number</b>
+            </label>
             <div class="input">
-            <input type="text" class="textbox">
-            <input type="text" class="textbox">
+                <input type="text" class="textbox">
+                <input type="text" class="textbox2">
             </div>
         </span>
         <span class="radios">
@@ -27,12 +25,12 @@
         </span>
         <span>
             <div class="buttons">
-                <button class="button-primary"> = </button>
-                <button class="button"> Clear </button>
+                <button class="button-primary" onclick="calculate()"> = </button>
+                <button class="button" onclick="clearValues()"> Clear </button>
             </div>
         </span>
         <div>
-            <label class="results">Result text</label>
+            <label class="results"></label>
         </div>
     </body>
 </html>

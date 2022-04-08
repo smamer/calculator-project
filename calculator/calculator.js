@@ -15,21 +15,43 @@ class Calculator {
     getAction() {}
 
     // performa a calculation based on the currently selected operation
-    operate() {}
+    operate() {
+        switch (this.operator) {
+            case add:
+                this.add();
+                break;
+            case subtract:
+                this.subtract();
+                break;
+            case multiply:
+                this.multiply();
+                break;
+            case divide:
+                this.divide();
+        }
+    }
 
     attemptedDivideByZero = false;
 
     // perform addition operation
-    add() {}
+    add() {
+        this.firstNumber + this.secondNumber
+    }
 
     // perform subtraction operation
-    subtract() {}
+    subtract() {
+        this.firstNumber - this.secondNumber
+    }
 
     // perform multiplication operation
-    multiply() {}
+    multiply() {
+        this.firstNumber * this.secondNumber
+    }
 
     // perform divide operation
-    divide() {}
+    divide() {
+        this.firstNumber / this.secondNumber
+    }
 }
 
 //DO NOT TOUCH THIS LINE OF CODE//
